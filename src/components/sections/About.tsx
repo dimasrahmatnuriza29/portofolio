@@ -54,14 +54,6 @@ export function About() {
                     <Icon name="award" className="w-4 h-4 text-cyan-accent" />
                     <span className="text-xs font-semibold text-white">5+ Years</span>
                   </motion.div>
-                  <motion.div
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                    className="absolute bottom-5 left-5 glass rounded-xl px-3 py-2 flex items-center gap-2"
-                  >
-                    <Icon name="building" className="w-4 h-4 text-electric" />
-                    <span className="text-xs font-semibold text-white">Enterprise Focus</span>
-                  </motion.div>
                 </div>
               </div>
             </div>
