@@ -142,22 +142,6 @@ export function Hero() {
             </MagneticButton>
           </motion.div>
 
-          {/* Trust line */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.7 }}
-            className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-white/40"
-          >
-            <span className="flex items-center gap-1.5">
-              <Icon name="check" className="w-3.5 h-3.5 text-cyan-accent" />
-              Trusted by Pertamina, Bukalapak &amp; more
-            </span>
-            <span className="hidden sm:flex items-center gap-1.5">
-              <Icon name="star" className="w-3.5 h-3.5 text-cyan-accent" />
-              5+ years enterprise experience
-            </span>
-          </motion.div>
 
           {/* Animated Metrics */}
           <motion.div
