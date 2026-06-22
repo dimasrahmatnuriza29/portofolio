@@ -65,15 +65,6 @@ export function Hero() {
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8 w-full">
         <div className="flex flex-col items-center text-center">
           {/* Status badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="eyebrow mb-7"
-          >
-            <span className="glow-dot" />
-            <span>Available for Enterprise Engagements</span>
-          </motion.div>
 
           {/* Headline */}
           <motion.h1
