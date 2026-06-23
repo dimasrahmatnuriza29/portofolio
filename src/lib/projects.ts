@@ -176,6 +176,59 @@ export const projects: Project[] = [
       ],
     },
   },
+  {
+    id: "edumanage-pro",
+    name: "EduManage Pro",
+    tagline: "School management platform for multi-branch education networks",
+    description:
+      "A centralized school management command center for multi-branch education institutions. Provides real-time dashboards for student enrollment, attendance tracking, teacher management, billing, and parent engagement across all branches.",
+    url: "https://school-management-lac-tau.vercel.app/",
+    github: "https://github.com/dimasrahmatnuriza29",
+    category: "Full Stack",
+    filters: ["Education"],
+    tech: ["Next.js", "React", "TypeScript", "TailwindCSS", "Data Visualization", "Dashboard"],
+    accent: "cyan",
+    featured: true,
+    caseStudy: {
+      challenge:
+        "Multi-branch school networks lacked a centralized view of student enrollment, attendance, teacher performance, and billing. Administrators relied on fragmented spreadsheets and manual reports, resulting in delayed decision-making and poor visibility across branches.",
+      solution:
+        "Built a unified School Management Command Center that aggregates data from all branches into a single interactive dashboard — enabling real-time monitoring of student enrollment trends, attendance rates, teacher performance, billing status, and parent engagement.",
+      architecture: [
+        "Next.js App Router frontend with responsive dashboard layout",
+        "Real-time student enrollment and attendance visualization",
+        "Multi-branch performance ranking and comparison",
+        "Activity feed for live updates across all branches",
+        "Billing and parent engagement tracking modules",
+      ],
+      aiComponents: [
+        "Automated attendance tracking and anomaly detection",
+        "Student enrollment trend analytics",
+        "Branch performance ranking engine",
+        "Real-time activity aggregation pipeline",
+      ],
+      techStack: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Data Visualization",
+        "Vercel",
+      ],
+      businessImpact: [
+        "Centralized management across 5 branches and 1,247 students",
+        "Real-time attendance tracking at 94.2% across all branches",
+        "Streamlined billing with 92% on-time payment rate",
+        "Improved parent engagement through centralized scheduling",
+      ],
+      metrics: [
+        { label: "Attendance Rate", value: 94, suffix: "%" },
+        { label: "Students Managed", value: 1247, suffix: "+" },
+        { label: "Branches Connected", value: 5, suffix: "" },
+        { label: "Parent Engagement", value: 88, suffix: "%" },
+      ],
+    },
+  },
 ];
 
 export const projectFilters = [
@@ -183,4 +236,5 @@ export const projectFilters = [
   "HSSE",
   "Healthcare",
   "Logistic",
+  "Education",
 ];
