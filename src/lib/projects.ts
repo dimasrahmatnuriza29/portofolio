@@ -24,6 +24,52 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "hsse-migas-command-center",
+    name: "HSSE MIGAS Command Center",
+    tagline: "Real-time monitoring dashboard for Health, Safety, Security & Environment",
+    description:
+      "A web-based command center for monitoring Health, Safety, Security, and Environment (HSSE) metrics across oil & gas operations. Provides real-time visualization of safety incidents, environmental compliance, and operational risk indicators in a centralized dashboard.",
+    url: "https://github.com/dimasrahmatnuriza29/HSSE-MIGAS",
+    github: "https://github.com/dimasrahmatnuriza29/HSSE-MIGAS",
+    category: "Full Stack",
+    filters: ["Full Stack", "Enterprise Systems", "Data Engineering"],
+    tech: ["HTML5", "CSS3", "JavaScript", "Data Visualization", "Dashboard"],
+    accent: "electric",
+    featured: true,
+    caseStudy: {
+      challenge:
+        "Oil & gas operations needed a centralized, real-time view of HSSE (Health, Safety, Security, Environment) metrics across multiple sites. Existing reporting was manual, fragmented, and lacked real-time visibility into safety incidents and compliance status.",
+      solution:
+        "Built a web-based HSSE Command Center dashboard that aggregates safety, security, and environmental data into a single interactive interface — enabling real-time monitoring, incident tracking, and compliance reporting.",
+      architecture: [
+        "Responsive web frontend with HTML5, CSS3, and JavaScript",
+        "Interactive data visualization for safety & environmental metrics",
+        "Real-time incident tracking and alert display",
+        "Centralized dashboard for multi-site HSSE monitoring",
+        "Compliance reporting and KPI visualization",
+      ],
+      aiComponents: [
+        "Real-time data aggregation pipeline",
+        "Interactive safety metric visualization",
+        "Incident tracking and alert system",
+        "Compliance KPI dashboard",
+      ],
+      techStack: ["HTML5", "CSS3", "JavaScript", "Data Visualization", "Dashboard"],
+      businessImpact: [
+        "Centralized HSSE monitoring across multiple operational sites",
+        "Real-time visibility into safety incidents and environmental compliance",
+        "Reduced manual reporting effort through automated dashboard updates",
+        "Improved decision-making with consolidated KPI tracking",
+      ],
+      metrics: [
+        { label: "Real-time Monitoring", value: 100, suffix: "%" },
+        { label: "Reporting Speed", value: 60, suffix: "% faster" },
+        { label: "Manual Effort Saved", value: 70, suffix: "%" },
+        { label: "Sites Connected", value: 5, suffix: "+" },
+      ],
+    },
+  },
+  {
     id: "ai-healthcare-agent",
     name: "AI Healthcare Agent Platform",
     tagline: "Intelligent patient interaction & medical assistance",
