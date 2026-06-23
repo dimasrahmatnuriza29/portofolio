@@ -29,8 +29,7 @@ export const projects: Project[] = [
     tagline: "Real-time monitoring dashboard for Health, Safety, Security & Environment",
     description:
       "A web-based command center for monitoring Health, Safety, Security, and Environment (HSSE) metrics across oil & gas operations. Provides real-time visualization of safety incidents, environmental compliance, and operational risk indicators in a centralized dashboard.",
-    url: "https://github.com/dimasrahmatnuriza29/HSSE-MIGAS",
-    github: "https://github.com/dimasrahmatnuriza29/HSSE-MIGAS",
+    url: "https://hsse-migas.vercel.app/",
     category: "Full Stack",
     filters: ["Full Stack", "Enterprise Systems", "Data Engineering"],
     tech: ["HTML5", "CSS3", "JavaScript", "Data Visualization", "Dashboard"],
