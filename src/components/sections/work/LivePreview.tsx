@@ -132,7 +132,7 @@ export function LivePreview({
               </div>
             ) : isExternal ? (
               <img
-                src={`https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=true&meta=false&embed=screenshot.url&viewport.device=desktop&waitUntil=networkidle0`}
+                src={`https://api.microlink.io/?url=${encodeURIComponent(url)}&screenshot=true&meta=false&embed=screenshot.url&viewport.device=desktop&waitUntil=networkidle0&colorScheme.dark=true`}
                 alt={`Live preview of ${url}`}
                 loading="lazy"
                 onLoad={() => setLoaded(true)}

@@ -267,7 +267,7 @@ function ProjectThumb({ project }: { project: Project }) {
   const [error, setError] = useState(false);
   const screenshotUrl = `https://api.microlink.io/?url=${encodeURIComponent(
     project.url
-  )}&screenshot=true&meta=false&embed=screenshot.url&viewport.device=desktop&waitUntil=networkidle0`;
+  )}&screenshot=true&meta=false&embed=screenshot.url&viewport.device=desktop&waitUntil=networkidle0&colorScheme.dark=true`;
 
   return (
     <>
